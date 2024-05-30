@@ -565,8 +565,17 @@ progress::-moz-progress-value {
     padding: 3rem 0;
     display: none;
 }
+.modal__close {
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    top: 15px;
+    right: 15px;
+    font-size: 36px;
+}
 
 .modal__inner {
+    position: relative;
     width: 66.3rem;
     padding: 9rem 9.5rem;
     background: #2C2C2C;
